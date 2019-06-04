@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/layout2">
+
+    <data>
+        <variable name="gameViewModel"
+                  type="com.example.wordmaster.screens.game.GameViewModel"/>
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" app:layout_constraintStart_toStartOf="@+id/vertical_guideline"
+            app:layout_constraintEnd_toStartOf="@+id/vertical_guideline">
+        <!--android:text="@{gameViewModel.timeString}"-->
+        <TextView
+                android:text="@{gameViewModel.timeString}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/timer_text"
+                style="@style/text_normal_style"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/vertical_guideline"
+                app:layout_constraintBottom_toTopOf="@+id/guideline2"
+                app:layout_constraintBaseline_toBaselineOf="@+id/score_label"
+                android:enabled="@{gameViewModel.gameDataAvailable}"/>
+
+        <TextView
+                android:text="@string/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/score_label"
+                style="@style/text_normal_style"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="@id/vertical_guideline"
+
+                app:layout_constraintBottom_toTopOf="@id/guideline2"
+                app:layout_constraintBaseline_toBaselineOf="@+id/score_text"
+                android:enabled="@{gameViewModel.gameDataAvailable}" app:layout_constraintVertical_bias="0.606"
+                app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toStartOf="@+id/score_text"/>
+        <!--android:text="@{@string/score_format(gameViewModel.score)}"-->
+        <TextView
+                android:text="@{String.valueOf(gameViewModel.score)}"
+                android:hint="@string/DefaultScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/score_text"
+                style="@style/text_normal_style"
+                android:layout_marginTop="@dimen/layout_margin_big"
+                app:layout_constraintTop_toTopOf="parent"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/guideline2"
+                android:enabled="@{gameViewModel.gameDataAvailable}"
+                app:layout_constraintVertical_bias="0.509" app:layout_constraintStart_toEndOf="@+id/score_label"
+                app:layout_constraintHorizontal_bias="0.5"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintGuide_percent="0.2"
+                android:id="@+id/guideline2"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/word_label"
+                  android:text="@string/the_word_is"
+                  tools:ignore="InvalidId"
+                  style="@style/text_reg_style"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintEnd_toStartOf="@id/word_text"
+                  app:layout_constraintTop_toBottomOf="@+id/guideline2"
+                  app:layout_constraintBottom_toTopOf="@+id/radioAnswer"
+                  android:layout_marginEnd="@dimen/layout_margin_side"
+                  android:enabled="@{gameViewModel.gameDataAvailable}"
+                  app:layout_constraintBaseline_toBaselineOf="@+id/word_text"
+                  app:layout_constraintHorizontal_chainStyle="packed"/>
+
+        <TextView
+                android:text="@{gameViewModel.word}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/word_text"
+                tools:text="compete"
+                style="@style/text_reg_style"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/word_label"
+                android:layout_marginTop="@dimen/layout_margin"
+                app:layout_constraintTop_toBottomOf="@+id/guideline2"
+                android:fontFamily="@font/roboto" android:textStyle="bold"
+
+                android:enabled="@{gameViewModel.gameDataAvailable}"
+        />
+
+        <RadioGroup
+                android:id="@+id/radioAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                style="@style/text_reg_style"
+                app:layout_constraintTop_toBottomOf="@id/word_text"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4" tools:ignore="UnknownId"
+                android:enabled="@{gameViewModel.gameDataAvailable}">
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioVal1"
+                    android:text="@{gameViewModel.radioOne}"
+            />
+
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioVal2"
+                    android:text="@{gameViewModel.radioTwo}"
+            />
+
+            <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioVal3"
+                    android:text="@{gameViewModel.radioThree}"
+            />
+        </RadioGroup>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" app:layout_constraintGuide_begin="125dp"
+                app:layout_constraintGuide_percent="0.8"
+                android:id="@+id/guideline4"/>
+
+
+        <Button
+                android:text="@string/skip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/skip_button"
+                android:onClick="@{() -> gameViewModel.onSkip()}"
+                style="@style/button_style"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/gotit_button"
+                app:layout_constraintBaseline_toBaselineOf="@+id/gotit_button"
+                android:enabled="@{gameViewModel.gameDataAvailable}"/>
+        <Button
+                android:text="@string/got_it"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gotit_button"
+                style="@style/button_style"
+                android:onClick="@{() -> gameViewModel.onCorrect()}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/skip_button"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="@dimen/layout_margin"
+                android:enabled="@{gameViewModel.gameDataAvailable}"
+        />
+
+
+        <androidx.constraintlayout.widget.Guideline
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintGuide_percent="0.5"
+                android:id="@+id/vertical_guideline"/>
+        <!--<ProgressBar-->
+        <!--style="?android:attr/progressBarStyle"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/progressBar2"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--android:enabled="@{gameViewModel.progressBarVisible}"-->
+        <!--/>-->
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

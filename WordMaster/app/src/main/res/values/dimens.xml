@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="layout_margin">16dp</dimen>
+    <dimen name="layout_margin_big">30dp</dimen>
+    <dimen name="layout_margin_side">8dp</dimen>
+    <dimen name="text_reg_size">15sp</dimen>
+    <dimen name="text_big_size">30sp</dimen>
+    <dimen name="text_normal_size">13sp</dimen>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">WordMaster</string>
+    <string name="pref_file">SharedPref</string>
+    <string name="saved_launch_state_key">FIRST</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">About</string>
+    <string name="about_text">This is about page</string>
+    <string name="share">Share</string>
+    <string name="title_text_str">Word Master</string>
+    <string name="start">Start</string>
+    <string name="default_time">00:00</string>
+    <string name="the_word_is">Synonym of </string>
+    <string name="sample_word">Sample Word</string>
+    <string name="synonym">Synonym</string>
+    <string name="score">Score</string>
+    <string name="default_score">0</string>
+    <string name="skip">Skip</string>
+    <string name="skip_text"><u>Skip</u></string>
+    <string name="got_it">Got It</string>
+    <string name="you_scored">You scored ...</string>
+    <string name="try_again">Try Again!</string>
+    <string name="quote_format">\"%s\"</string>
+    <string name="score_format">Current Score: %d</string>
+    <string name="DefaultTime">00:00</string>
+    <string name="DefaultScore">0</string>
+    <string name="this_app_name">Word Master</string>
+</resources>
