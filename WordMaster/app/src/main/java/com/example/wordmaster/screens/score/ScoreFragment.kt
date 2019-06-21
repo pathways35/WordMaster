@@ -45,7 +45,7 @@ class ScoreFragment : Fragment() {
 
             if(hasChanged) {
                 Navigation.findNavController(binding.root)
-                    .navigate(ScoreFragmentDirections.actionGameWonFragmentToGameFragment())
+                    .navigate(ScoreFragmentDirections.actionScoreFragmentToGameFragment())
                 viewModel.onTryAgainComplete()
             }
 

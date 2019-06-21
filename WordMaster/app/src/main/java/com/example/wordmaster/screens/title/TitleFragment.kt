@@ -44,4 +44,6 @@ class TitleFragment : Fragment() {
         return NavigationUI.onNavDestinationSelected(item!!, Navigation.findNavController(view!!))
                 || super.onOptionsItemSelected(item)
     }
+
+
 }
