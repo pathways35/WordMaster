@@ -9,7 +9,8 @@
     </fragment>
     <fragment android:id="@+id/gameFragment" android:name="com.example.wordmaster.GameFragment"
               android:label="GameFragment">
-        <action android:id="@+id/action_gameFragment_to_scoreFragment" app:destination="@id/scoreFragment">
+        <action android:id="@+id/action_gameFragment_to_scoreFragment" app:destination="@id/scoreFragment"
+                app:popUpTo="@+id/gameFragment" app:popUpToInclusive="true">
             <argument android:defaultValue="0" android:name="score"/>
         </action>
     </fragment>
@@ -17,9 +18,9 @@
               android:label="ScoreFragment">
         <argument android:name="score" app:argType="integer" android:defaultValue="0"/>
         <action android:id="@+id/action_scoreFragment_to_titleFragment" app:destination="@id/titleFragment"
-                app:popUpTo="@+id/titleFragment" app:popUpToInclusive="true"/>
+                app:popUpTo="@+id/titleFragment" app:popUpToInclusive="false"/>
         <action android:id="@+id/action_scoreFragment_to_gameFragment" app:destination="@id/gameFragment"
-                app:popUpTo="@+id/gameFragment"/>
+                app:popUpTo="@+id/titleFragment"/>
     </fragment>
     <fragment android:id="@+id/aboutFragment" android:name="com.example.wordmaster.AboutFragment"
               android:label="fragment_about" tools:layout="@layout/fragment_about"/>

@@ -3,6 +3,7 @@ package com.example.wordmaster
 
 import android.os.Bundle
 import android.view.*
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.Navigation
@@ -17,7 +18,7 @@ class TitleFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        activity?.setTitle(getString(R.string.this_app_name))
+        (activity as AppCompatActivity).supportActionBar?.title = getString(R.string.this_app_name)
 
         // Inflate the layout for this fragment
         val binding: FragmentTitleBinding =
@@ -36,7 +37,7 @@ class TitleFragment : Fragment() {
         super.onCreateOptionsMenu(menu, inflater)
 
         //inflate the menu
-        inflater.inflate(R.menu.overflow_menu, menu)
+        inflater?.inflate(R.menu.overflow_menu, menu)
     }
 
     //Returns true if NavigationUI.onNavDestinationSelected returns true, else returns super.onOptionsItemSelected

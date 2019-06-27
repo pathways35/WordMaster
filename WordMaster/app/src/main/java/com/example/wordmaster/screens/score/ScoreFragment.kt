@@ -4,6 +4,7 @@ package com.example.wordmaster
 import android.content.Intent
 import android.os.Bundle
 import android.view.*
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ShareCompat
 import androidx.fragment.app.Fragment
 import androidx.databinding.DataBindingUtil
@@ -25,7 +26,8 @@ class ScoreFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        activity?.setTitle(getString(R.string.this_app_name))
+        (activity as AppCompatActivity).supportActionBar?.title = getString(R.string.this_app_name)
+
         // Inflate the layout for this fragment
         val binding: FragmentScoreBinding =
             DataBindingUtil.inflate(inflater, R.layout.fragment_score ,container, false)
@@ -46,6 +48,7 @@ class ScoreFragment : Fragment() {
             if(hasChanged) {
                 Navigation.findNavController(binding.root)
                     .navigate(ScoreFragmentDirections.actionScoreFragmentToGameFragment())
+               // Navigation.findNavController(binding.root).navigate(R.id.action_scoreFragment_to_gameFragment)
                 viewModel.onTryAgainComplete()
             }
 

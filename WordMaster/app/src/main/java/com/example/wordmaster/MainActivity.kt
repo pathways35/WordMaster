@@ -87,11 +87,9 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onSupportNavigateUp(): Boolean {
+
         val navController = Navigation.findNavController(this, R.id.myNavHostFragment)
-        if(navController.currentDestination?.id == R.id.scoreFragment){
-            navController.popBackStack()
-            //navController.navigate(ScoreFragmentDirections.actionScoreFragmentToGameFragment());
-        }
-            return navController.navigateUp()
+
+        return navController.navigateUp()
     }
 }

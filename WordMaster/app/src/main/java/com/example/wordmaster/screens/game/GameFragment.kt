@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 
@@ -38,7 +39,7 @@ class GameFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        activity?.setTitle(getString(R.string.this_app_name))
+        (activity as AppCompatActivity).supportActionBar?.title = getString(R.string.this_app_name)
         //Get a reference to the binding object and inflate the fragment views
         binding =
             DataBindingUtil.inflate(inflater, R.layout.fragment_game ,container, false)
@@ -92,6 +93,7 @@ class GameFragment : Fragment() {
         val action = GameFragmentDirections.actionGameFragmentToScoreFragment(arg)
 
         Navigation.findNavController(binding.root).navigate(action)
+
     }
 
 
