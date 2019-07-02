@@ -6,8 +6,8 @@ import android.os.Bundle
 import android.view.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ShareCompat
-import androidx.fragment.app.Fragment
 import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.Navigation
@@ -48,11 +48,9 @@ class ScoreFragment : Fragment() {
             if(hasChanged) {
                 Navigation.findNavController(binding.root)
                     .navigate(ScoreFragmentDirections.actionScoreFragmentToGameFragment())
-               // Navigation.findNavController(binding.root).navigate(R.id.action_scoreFragment_to_gameFragment)
                 viewModel.onTryAgainComplete()
             }
 
-            //Navigation.findNavController(it).navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment())
         })
 
         //set menu
@@ -83,10 +81,13 @@ class ScoreFragment : Fragment() {
 
     }
 
+
       private fun getShareIntent(): Intent {
 
+          var args = ScoreFragmentArgs.fromBundle(arguments!!).score
           val shareIntent = ShareCompat.IntentBuilder.from(activity)
                                 .setType("text/plain")
+              .setText(getString(R.string.share_success_string, args.toString()))
                                 .intent
 
           return shareIntent

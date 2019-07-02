@@ -25,7 +25,8 @@ abstract class WordMasterDatabase: RoomDatabase() {
                 var db = DB
 
                 if(db == null){
-                    db = Room.databaseBuilder(context.applicationContext, WordMasterDatabase::class.java,"word_master_database")
+                    db = Room.databaseBuilder(context.applicationContext,
+                            WordMasterDatabase::class.java,"word_master_database")
                         .fallbackToDestructiveMigration()
                         .build()
                     DB = db

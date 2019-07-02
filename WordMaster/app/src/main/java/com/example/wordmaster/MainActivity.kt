@@ -1,24 +1,19 @@
 package com.example.wordmaster
 
-import android.app.Activity
 import android.content.Context
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
-import com.example.wordmaster.database.Model.Word
 import com.example.wordmaster.database.WordDatabaseDao
 import com.example.wordmaster.database.WordMasterDatabase
 import com.example.wordmaster.databinding.ActivityMainBinding
 import com.example.wordmaster.databinding.FragmentAboutBindingImpl
 import com.example.wordmaster.screens.about.AboutViewModel
 import com.example.wordmaster.screens.about.AboutViewModelFactory
-
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.withContext
 
 class MainActivity : AppCompatActivity() {
 
@@ -75,9 +70,6 @@ class MainActivity : AppCompatActivity() {
         //using Databinding for accessing the layout UI
 
         val binding: ActivityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-
-        //set action bar
-       // supportActionBar?.setDisplayShowCustomEnabled(true)
 
         val navController = Navigation.findNavController(this, R.id.myNavHostFragment)
 
