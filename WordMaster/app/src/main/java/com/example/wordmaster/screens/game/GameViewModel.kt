@@ -25,7 +25,7 @@ class GameViewModel(val db:WordDatabaseDao, application: Application): AndroidVi
         private const val ONE_SECOND = 1000L
 
         //total time of the game
-        private const val COUNTDOWN_TIME = 30000L
+        private const val COUNTDOWN_TIME = 60000L
 
     }
     //timer
@@ -178,12 +178,14 @@ class GameViewModel(val db:WordDatabaseDao, application: Application): AndroidVi
     }
 
     fun onCorrect(){
+
         if(evaluateAnswer())
             _score.value = (_score.value)?.plus(1)
-        else
-            if(_score.getValue()!!.compareTo(0) > 0) {
+        else  if(_score.getValue()!!.compareTo(0) > 0) {
                 _score.value = (_score.value)?.minus(1)
-            }
+        }
+
+        setSelectedAnswer(0)
         nextWord()
     }
 
@@ -195,6 +197,7 @@ class GameViewModel(val db:WordDatabaseDao, application: Application): AndroidVi
     fun evaluateAnswer(): Boolean{
         var result: Boolean  = false
         var answer: String? = null
+
         when(selectedAnswer){
             1 -> answer = _radioOne.value.toString()
             2 -> answer = _radioTwo.value.toString()
@@ -217,5 +220,7 @@ class GameViewModel(val db:WordDatabaseDao, application: Application): AndroidVi
     fun setSelectedAnswer(ans: Int){
         selectedAnswer = ans
     }
+
+
 
 }

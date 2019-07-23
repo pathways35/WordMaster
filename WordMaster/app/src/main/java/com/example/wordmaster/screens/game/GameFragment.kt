@@ -70,6 +70,7 @@ class GameFragment : Fragment() {
         viewModel.synonymAnswered.observe(this, Observer { hasAnswered->
             if(hasAnswered) {
                 binding.radioAnswer.clearCheck()
+                binding.invalidateAll()
             }
         })
 
