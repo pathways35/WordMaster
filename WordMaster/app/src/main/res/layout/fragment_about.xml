@@ -44,7 +44,7 @@
                   app:layout_constraintEnd_toEndOf="parent"
                   app:showIfNotNull="@{aboutViewModel.completed}"
                   android:onClick="@{() -> aboutViewModel.onSkip()}"
-                  android:capitalize="words" android:clickable="true" android:textColor="#2196F3"/>
+                  android:clickable="true" android:textColor="#2196F3"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

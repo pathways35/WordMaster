@@ -23,7 +23,7 @@
                 app:layout_constraintEnd_toEndOf="@id/vertical_guideline"
                 app:layout_constraintBottom_toTopOf="@+id/guideline2"
                 app:layout_constraintBaseline_toBaselineOf="@+id/score_label"
-                android:enabled="@{gameViewModel.gameDataAvailable}"/>
+                android:enabled="@{safeUnbox(gameViewModel.gameDataAvailable)}"/>
 
         <TextView
                 android:text="@string/score"
@@ -36,11 +36,12 @@
 
                 app:layout_constraintBottom_toTopOf="@id/guideline2"
                 app:layout_constraintBaseline_toBaselineOf="@+id/score_text"
-                android:enabled="@{gameViewModel.gameDataAvailable}" app:layout_constraintVertical_bias="0.606"
+                android:enabled="@{safeUnbox(gameViewModel.gameDataAvailable)}"
+                app:layout_constraintVertical_bias="0.606"
                 app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toStartOf="@+id/score_text"/>
         <!--android:text="@{@string/score_format(gameViewModel.score)}"-->
         <TextView
-                android:text="@{String.valueOf(gameViewModel.score)}"
+                android:text="@{String.valueOf(safeUnbox(gameViewModel.score))}"
                 android:hint="@string/DefaultScore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -51,7 +52,7 @@
 
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toTopOf="@id/guideline2"
-                android:enabled="@{gameViewModel.gameDataAvailable}"
+                android:enabled="@{safeUnbox(gameViewModel.gameDataAvailable)}"
                 app:layout_constraintVertical_bias="0.509" app:layout_constraintStart_toEndOf="@+id/score_label"
                 app:layout_constraintHorizontal_bias="0.5"/>
 
@@ -73,7 +74,7 @@
                   app:layout_constraintTop_toBottomOf="@+id/guideline2"
                   app:layout_constraintBottom_toTopOf="@+id/radioAnswer"
                   android:layout_marginEnd="@dimen/layout_margin_side"
-                  android:enabled="@{gameViewModel.gameDataAvailable}"
+                  android:enabled="@{safeUnbox(gameViewModel.gameDataAvailable)}"
                   app:layout_constraintBaseline_toBaselineOf="@+id/word_text"
                   app:layout_constraintHorizontal_chainStyle="packed"/>
 
@@ -90,7 +91,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/guideline2"
                 android:fontFamily="@font/roboto" android:textStyle="bold"
 
-                android:enabled="@{gameViewModel.gameDataAvailable}"
+                android:enabled="@{safeUnbox(gameViewModel.gameDataAvailable)}"
         />
 
         <RadioGroup
@@ -102,7 +103,7 @@
                 style="@style/text_reg_style"
                 app:layout_constraintTop_toBottomOf="@id/word_text"
                 app:layout_constraintBottom_toTopOf="@+id/guideline4" tools:ignore="UnknownId"
-                android:enabled="@{gameViewModel.gameDataAvailable}">
+                android:enabled="@{safeUnbox(gameViewModel.gameDataAvailable)}">
             <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -143,7 +144,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/gotit_button"
                 app:layout_constraintBaseline_toBaselineOf="@+id/gotit_button"
-                android:enabled="@{gameViewModel.gameDataAvailable}"/>
+                android:enabled="@{safeUnbox(gameViewModel.gameDataAvailable)}"/>
         <Button
                 android:text="@string/got_it"
                 android:layout_width="wrap_content"
@@ -155,7 +156,7 @@
                 app:layout_constraintStart_toEndOf="@+id/skip_button"
                 app:layout_constraintBottom_toBottomOf="parent"
                 android:layout_marginBottom="@dimen/layout_margin"
-                android:enabled="@{gameViewModel.gameDataAvailable}"
+                android:enabled="@{safeUnbox(gameViewModel.gameDataAvailable)}"
         />
 
 
