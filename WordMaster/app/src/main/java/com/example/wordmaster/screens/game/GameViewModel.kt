@@ -221,6 +221,9 @@ class GameViewModel(val db:WordDatabaseDao, application: Application): AndroidVi
         selectedAnswer = ans
     }
 
-
+    fun checkAnswers(ans: Int){
+        setSelectedAnswer(ans)
+        onCorrect()
+    }
 
 }

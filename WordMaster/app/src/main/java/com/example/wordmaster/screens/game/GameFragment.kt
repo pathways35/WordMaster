@@ -59,10 +59,11 @@ class GameFragment : Fragment() {
 
         binding.radioAnswer.setOnCheckedChangeListener { group, checkedId ->
             when(checkedId){
-                R.id.radioVal1 -> viewModel.setSelectedAnswer(1)
-                R.id.radioVal2 -> viewModel.setSelectedAnswer(2)
-                R.id.radioVal3 -> viewModel.setSelectedAnswer(3)
+                R.id.radioVal1 -> viewModel.checkAnswers(1)
+                R.id.radioVal2 -> viewModel.checkAnswers(2)
+                R.id.radioVal3 -> viewModel.checkAnswers(3)
             }
+
 
         }
 

@@ -142,22 +142,11 @@
                 android:onClick="@{() -> gameViewModel.onSkip()}"
                 style="@style/button_style"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/gotit_button"
-                app:layout_constraintBaseline_toBaselineOf="@+id/gotit_button"
-                android:enabled="@{safeUnbox(gameViewModel.gameDataAvailable)}"/>
-        <Button
-                android:text="@string/got_it"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/gotit_button"
-                style="@style/button_style"
-                android:onClick="@{() -> gameViewModel.onCorrect()}"
+                android:enabled="@{safeUnbox(gameViewModel.gameDataAvailable)}" tools:layout_editor_absoluteY="667dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/skip_button"
                 app:layout_constraintBottom_toBottomOf="parent"
                 android:layout_marginBottom="@dimen/layout_margin"
-                android:enabled="@{safeUnbox(gameViewModel.gameDataAvailable)}"
-        />
+                android:layout_marginEnd="8dp"/>
 
 
         <androidx.constraintlayout.widget.Guideline
