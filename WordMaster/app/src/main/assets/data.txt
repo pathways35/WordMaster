@@ -1,50 +1,440 @@
 [
-     {
-     "word": "adrift",
-     "synonyms": ["lost", "unmoored", "unanchored"]
-     },
-     {
-       "word":"satire",
-       "synonyms":["mockery", "parody", "skit"]
-     },
+    {
+            "word": "banal",
+            "synonyms": ["unoriginal", "ordinary"],
+            "grammar": "adjective",
+            "meaning": "lacking originality",
+            "usage": "Watching scary movies on Halloween is too banal; let's hang out at graveyard"
+
+            },
+    {
+            "word": "belittle",
+            "synonyms": ["deprecate", "disparage"],
+            "grammar": "verb",
+            "meaning":"to regard as less impressive or less important",
+                        "usage": "The manager belittles his employee, so the employee quits"
+            },
+    {
+            "word": "benefactor",
+            "synonyms": ["sponsor", "patron"],
+            "grammar": "noun",
+                        "meaning":"a person who gives a benefit, kindly helper",
+                        "usage": "The charity found a rich benefactor to pay for its expenses"
+            },
+    {
+            "word": "benign",
+            "synonyms": ["gracious", "caring"],
+            "grammar": "adjective",
+                        "meaning":"having kind disposition",
+                        "usage": "The old man's benign manner was masked by his creepy appearance"
+            },
+    {
+            "word": "bereft",
+            "synonyms": ["forlorn", "bereaved"],
+            "grammar": "adjective",
+                        "meaning":"deprived and made desolate",
+                        "usage": "I was bereft when my favorite restaurant closed indefinitely"
+            },
+    {
+            "word": "bolster",
+            "synonyms": ["boost", "buoy"],
+            "grammar": "verb",
+                        "meaning":"to support or hold up",
+                        "usage": "To bolster her ego, I told Sarah that no one noticed her mistake in the music recital"
+            },
+    {
+            "word": "burgeon",
+            "synonyms": ["flourish", "prosper"],
+            "grammar": "verb",
+                        "meaning":"to grow or develop quickly",
+                        "usage": "The market for electric car continues to burgeon"
+            },
+    {
+            "word": "cacophony",
+            "synonyms": ["dissonance", "discord"],
+            "grammar": "noun",
+                        "meaning":"harsh, loud, discordant sounds",
+                        "usage": "The concert was more cacophony than music"
+            },
+    {
+            "word": "calculated",
+            "synonyms": ["considered", "studied"],
+            "grammar": "adjective",
+                        "meaning":"carefully thought out or planned",
+                        "usage": "All of Sheldon's movements are calculated, making him look like a robot"
+            },
+    {
+            "word": "camaraderie",
+            "synonyms": ["comradeship", "companionability"],
+            "grammar": "noun",
+                        "meaning":"a spirit of friendliness or good fellowship",
+                        "usage": "The football players developed a strong sense of camaraderie after playing for a whole season"
+            },
+    {
+            "word": "satire",
+            "synonyms": ["mockery", "parody"],
+            "grammar": "noun",
+                        "meaning":"the use of ridicule in order to point out weakness",
+                        "usage": "The political candidates are a frequent object of satire on Saturday Night Live show"
+            },
+    {
+            "word": "diversity",
+            "synonyms": ["variety", "assortment"],
+            "grammar": "noun",
+                        "meaning":"the state of having different kinds, forms or characters",
+                        "usage": "New York proudly celebrates its social and racial diversity"
+            },
+    {
+            "word": "rudimentary",
+            "synonyms": ["elementary", "basic"],
+            "grammar": "adjective",
+                        "meaning":"relating to basic facts or principles",
+                        "usage": "In order to build a robot, one needs at least a rudimentary knowledge of programming"
+            },
+    {
+            "word": "sanctimonious",
+            "synonyms": ["hypocritical", "self-righteous"],
+            "grammar": "adjective",
+                        "meaning":"making a false show of religious devotion",
+                        "usage": "The pastor's sanctimonious attitude didn't work when he was caught stealing from the church"
+            },
+    {
+            "word": "sarcasm",
+            "synonyms": ["derision", "scorn"],
+            "grammar": "noun",
+                        "meaning":"sneering or cutting remarks",
+                        "usage": "The teacher's sarcasm is rude and demoralising for the students"
+            },
+    {
+            "word": "routine",
+            "synonyms": ["regular", "usual"],
+            "grammar": "adjective",
+                        "meaning":"customary or commonplace",
+                        "usage": "The school nurse routinely checks the students for lies"
+            },
+    {
+            "word": "sagacious",
+            "synonyms": ["shrewd", "wise"],
+            "grammar": "adjective",
+                        "meaning":"having keen practical sense",
+                        "usage": "The sagacious student built a strong resume before graduating from school"
+            },
+    {
+            "word": "scathing",
+            "synonyms": ["caustic", "cutting"],
+            "grammar": "adjective",
+                        "meaning":"bitterly severe",
+                        "usage": "The ruling and the opposition party shouted scathing insults at each other"
+            },
+    {
+            "word": "contrite",
+            "synonyms": ["apologetic", "repentant"],
+            "grammar": "adjective",
+                        "meaning":"showing sincere remorse",
+                        "usage": "Lillian was contrite after shoving her sister into the snow"
+            },
+    {
+            "word": "habitable",
+            "synonyms": ["livable"],
+            "grammar": "adjective",
+                        "meaning":"capable of being lived in",
+                        "usage": "The old castle was no longer habitable having been overtaken by bats"
+            },
+    {
+            "word": "salutary",
+            "synonyms": ["healthy", "favorable"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "portend",
+            "synonyms": ["foreshadow", "foretell"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "cynical",
+            "synonyms": ["skeptical", "jaded"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "polemical",
+            "synonyms": ["controversial", "quarrelsome"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "decorous",
+            "synonyms": ["respectable"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "decry",
+            "synonyms": ["denigrate", "belittle"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "refute",
+            "synonyms": ["disprove", "rebut"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "languid",
+            "synonyms": ["slow", "relaxed"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "palliative",
+            "synonyms": ["remedy", "placebo"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "candid",
+            "synonyms": ["honest", "open"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "cantankerous",
+            "synonyms": ["contentious", "peevish"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "capitulate",
+            "synonyms": ["surrender", "submit"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "capricious",
+            "synonyms": ["erratic", "whimsical"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "catalyst",
+            "synonyms": ["impetus", "stimulus"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "cathartic",
+            "synonyms": ["cleansing", "purifying"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "caustic",
+            "synonyms": ["harsh", "corrosive"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "cavalier",
+            "synonyms": ["dismissive", "offhand"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "perusal",
+            "synonyms": ["study", "survey"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+            "word": "licentious",
+            "synonyms": ["lascivious"],
+            "grammar": "",
+                        "meaning":"",
+                        "usage": ""
+            },
+    {
+        "word": "chronicle",
+        "synonyms": ["recount", "narrate"],
+        "grammar": "",
+                    "meaning":"",
+                    "usage": ""
+        },
+    {
+         "word": "tenable",
+         "synonyms": ["defensible"],
+         "grammar": "",
+                     "meaning":"",
+                     "usage": ""
+         },
+    {
+         "word": "temperate",
+         "synonyms": ["mild", "pleasant"],
+         "grammar": "",
+                     "meaning":"",
+                     "usage": ""
+         },
+    {
+         "word": "dearth",
+         "synonyms": ["lack", "scarcity"],
+         "grammar": "",
+                     "meaning":"",
+                     "usage": ""
+         },
+    {
+         "word": "debilitating",
+         "synonyms": ["disabling", "crippling"],
+         "grammar": "",
+                     "meaning":"",
+                     "usage": ""
+         },
+    {
+         "word": "debunk",
+         "synonyms": ["disprove", "expose"],
+         "grammar": "verb",
+                     "meaning":"to expose as false",
+                     "usage": ""
+         },
+    {
+         "word": "placid",
+         "synonyms": ["unruffled", "serene"],
+         "grammar": "adjective",
+                     "meaning":"pleasantly calm or peaceful",
+                     "usage": "The placid lake was perfect for swimming"
+         },
+    {
+         "word": "incongruous",
+         "synonyms": ["absurd", "contradictory"],
+         "grammar": "adjective",
+                     "meaning":"out of place, unbecoming, or inappropriate",
+                     "usage": "Amy's smile is incongruous considering her friend fell down right next to her"
+         },
+    {
+         "word": "affable",
+         "synonyms": ["agreeable", "good-natured"],
+         "grammar": "adjective",
+                     "meaning":"easy to approach or talk to",
+                     "usage": "Kennedy's affable personality made him a popular president"
+         },
+    {
+         "word": "affluence",
+         "synonyms": ["prosperity", "wealth"],
+         "grammar": "noun",
+                     "meaning":"abundance of wealth",
+                     "usage": "Bill's affluence allows him to support numerous charities"
+         },
+    {
+         "word": "alacrity",
+         "synonyms": ["promptness", "eagerness"],
+         "grammar": "noun",
+                     "meaning":"cheerful willingness",
+                     "usage": "My grandmother climbed the hill with surprising alacrity"
+         },
+    {
+         "word": "mercenary",
+         "synonyms": ["greedy", "avaricious"],
+         "grammar": "adjective",
+                     "meaning":"motivated purely by money",
+                     "usage": "The mercenary corporation bought up rival businesses and fired all the employees"
+         },
+    {
+         "word": "alleviate",
+         "synonyms": ["lessen", "mitigate"],
+         "grammar": "verb",
+                     "meaning":"to make easier to endure",
+                     "usage": "Scientist believe electric cars will alleviate pollution"
+         },
+    {
+         "word": "allude",
+         "synonyms": ["imply", "hint"],
+         "grammar": "verb",
+                     "meaning":"to refer to casually or indirectly",
+                     "usage": "The manager reported the company losses and alluded to the recent hurricane"
+         },
+    {
+          "word": "altruism",
+          "synonyms": ["charity", "goodwill"],
+          "grammar": "noun",
+                      "meaning":"unselfish concern for others",
+                      "usage": "Motivated by altruism, the noble scientist donated his prize money to scientific exploration"
+          },
+    {
+          "word": "ambiguous",
+          "synonyms": ["indefinite", "unclear"],
+          "grammar": "adjective",
+                      "meaning":"open to several meanings or intrepretations",
+                      "usage": "The new law was very ambiguous and caused a lot of public uproar"
+          },
+    {
+         "word": "ambivalent",
+         "synonyms": ["unsure", "indecisive"],
+         "grammar": "adjective",
+                     "meaning":"relating to uncertainty, fluctuation or mixex feelings",
+                     "usage": "Molly was ambivalent about going to a marathon on a hot day"
+         },
+    {
+         "word": "penchant",
+         "synonyms": ["tendency", "leaning"],
+         "grammar": "noun",
+                     "meaning":"a strong inclination or liking",
+                     "usage": "Ally has a penchant for eating all the candy in the cupboard"
+         },
+    {
+        "word": "anachronism",
+        "synonyms": ["misplacement"],
+        "grammar": "noun",
+                    "meaning":"something out of place in historical time",
+                    "usage": "If a movie character living in the 1980s were listening to a Podcast, that would be an anachronism"
+        },
+    {
+       "word": "anecdote",
+       "synonyms": ["story", "tale"],
+       "grammar": "noun",
+                   "meaning":"a short, amusing story",
+                   "usage": "Professor loves sharing anecdotes about how he solved a math problem as a kid"
+    },
+    {
+      "word": "animated",
+      "synonyms": ["lively", "vigorous"],
+      "grammar": "adjective",
+                  "meaning":"full of life or spirit",
+                  "usage": "Jim was having an animated conversation with his friend Kathy"
+    },
 
      {
-       "word":"diversity",
-       "synonyms":["variety","mixture","medley" ]
+     "word": "animosity",
+     "synonyms": ["hostility", "hatred"],
+     "grammar": "noun",
+                 "meaning":"a feeling of strong dislike",
+                 "usage": "Jones has a lot of animosity towards his brother, who took his clothes without asking"
      },
-	{
-        "word":"temperate",
-        "synonyms": ["restrained", "moderate", "self-controlled"]
-    },
 
     {
-      "word":"tenable",
-      "synonyms":["defendable", "supportable", "sustainable"]
-    },
-
-    {
-      "word":"palliative",
-      "synonyms":[ "pain reliever", "sedative", "tranquilizer"]
-    },
-    {
-        "word":"languid",
-        "synonyms": ["relaxed","sickly", "weak"]
-    },
-    {
-        "word":"refute",
-        "synonyms": ["deny", "reject", "repudiate", "rebut"]
-    },
-    {
-        "word":"decry",
-        "synonyms": ["denounce", "condemn", "criticize"]
-    },
-    {
-        "word":"decorous",
-        "synonyms": [	"proper", "decent", "becoming"]
-    },
-    {
-        "word":"debunk",
-        "synonyms": ["deflate", "puncture", "quash"]
+        "word":"impecunious",
+        "synonyms": ["poor", "penniless"],
+        "grammar": "adjective",
+                    "meaning":"having little or no money",
+                    "usage": "After buying his suit, Sam was so impecunious he couldn't afford to drive it"
     }
 
  ]

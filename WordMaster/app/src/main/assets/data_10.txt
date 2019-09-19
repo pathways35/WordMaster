@@ -1,0 +1,56 @@
+[   {
+             "word": "",
+             "synonyms": ["", ""]
+             "grammar": ""
+             "meaning":""
+             "usage": ""
+             },
+     {
+     "word": "adrift",
+     "synonyms": ["lost", "unmoored", "unanchored"]
+     },
+     {
+       "word":"satire",
+       "synonyms":["mockery", "parody", "skit"]
+     },
+
+     {
+       "word":"diversity",
+       "synonyms":["variety","mixture","medley" ]
+     },
+	{
+        "word":"temperate",
+        "synonyms": ["restrained", "moderate", "self-controlled"]
+    },
+
+    {
+      "word":"tenable",
+      "synonyms":["defendable", "supportable", "sustainable"]
+    },
+
+    {
+      "word":"palliative",
+      "synonyms":[ "pain reliever", "sedative", "tranquilizer"]
+    },
+    {
+        "word":"languid",
+        "synonyms": ["relaxed","sickly", "weak"]
+    },
+    {
+        "word":"refute",
+        "synonyms": ["deny", "reject", "repudiate", "rebut"]
+    },
+    {
+        "word":"decry",
+        "synonyms": ["denounce", "condemn", "criticize"]
+    },
+    {
+        "word":"decorous",
+        "synonyms": [	"proper", "decent", "becoming"]
+    },
+    {
+        "word":"debunk",
+        "synonyms": ["deflate", "puncture", "quash"]
+    }
+
+ ]
