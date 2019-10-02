@@ -234,86 +234,86 @@
     {
             "word": "catalyst",
             "synonyms": ["impetus", "stimulus"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "noun",
+                        "meaning":"something that causes an event or a change",
+                        "usage": "Scientific research is the catalyst in finding the causes of climate change"
             },
     {
             "word": "cathartic",
             "synonyms": ["cleansing", "purifying"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "adjective",
+                        "meaning":"emotionally purging",
+                        "usage": "Rumi found that community servie made a cathartic effect on his work habits"
             },
     {
             "word": "caustic",
             "synonyms": ["harsh", "corrosive"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "adjective",
+                        "meaning":"severely critical or sarcastic",
+                        "usage": "Sana's caustic comments have lost her many friendships"
             },
     {
             "word": "cavalier",
             "synonyms": ["dismissive", "offhand"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "adjective",
+                        "meaning":"showing arrogant disregard",
+                        "usage": "Rudy was discharged from the army after his cavalier attitude towards the military rules"
             },
     {
             "word": "perusal",
             "synonyms": ["study", "survey"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "noun",
+                        "meaning":"a suvey or reading",
+                        "usage": "Sam hired his employee after perusing his resume"
             },
     {
             "word": "licentious",
             "synonyms": ["lascivious"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "adjective",
+                        "meaning":"unrestrained by law or morality",
+                        "usage": "The licentious clerik shouted at his follower and broke the religious law"
             },
     {
         "word": "chronicle",
         "synonyms": ["recount", "narrate"],
-        "grammar": "",
-                    "meaning":"",
-                    "usage": ""
+        "grammar": "verb",
+                    "meaning":"to record or make history",
+                    "usage": "New York Times chronicled the former presidents life on the eve of his death anniversary"
         },
     {
          "word": "tenable",
          "synonyms": ["defensible"],
-         "grammar": "",
-                     "meaning":"",
-                     "usage": ""
+         "grammar": "adjective",
+                     "meaning":"capable of being maintained against attack or dispute",
+                     "usage": "The fort was constructed on top of a hill, making it a tenable outpust in case of attack"
          },
     {
          "word": "temperate",
          "synonyms": ["mild", "pleasant"],
-         "grammar": "",
-                     "meaning":"",
-                     "usage": ""
+         "grammar": "adjective",
+                     "meaning":"moderate, not extreme",
+                     "usage": "India is in temperate climate region"
          },
     {
          "word": "dearth",
          "synonyms": ["lack", "scarcity"],
-         "grammar": "",
-                     "meaning":"",
-                     "usage": ""
+         "grammar": "noun",
+                     "meaning":"an inadequate supply",
+                     "usage": "There's a dearth of flu vaccines this flu season"
          },
     {
          "word": "debilitating",
          "synonyms": ["disabling", "crippling"],
-         "grammar": "",
-                     "meaning":"",
-                     "usage": ""
+         "grammar": "adjective",
+                     "meaning":"making weak or feeble",
+                     "usage": "Polio is a debilitating disease that affects a person for life"
          },
     {
          "word": "debunk",
          "synonyms": ["disprove", "expose"],
          "grammar": "verb",
                      "meaning":"to expose as false",
-                     "usage": ""
+                     "usage": "The science kid debunked all the magician's tricks"
          },
     {
          "word": "placid",
