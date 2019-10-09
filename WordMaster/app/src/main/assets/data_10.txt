@@ -1,4 +1,12 @@
-[   {
+[
+    {
+            "word": "",
+            "grammar": "",
+            "meaning": "",
+            "usage": ""
+            "synonyms": ["", ""],
+            },
+{
              "word": "",
              "synonyms": ["", ""]
              "grammar": ""

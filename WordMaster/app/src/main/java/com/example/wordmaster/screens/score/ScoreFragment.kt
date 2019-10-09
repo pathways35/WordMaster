@@ -85,7 +85,7 @@ class ScoreFragment : Fragment() {
       private fun getShareIntent(): Intent {
 
           var args = ScoreFragmentArgs.fromBundle(arguments!!).score
-          val shareIntent = ShareCompat.IntentBuilder.from(activity)
+          val shareIntent = ShareCompat.IntentBuilder.from(this.activity!!)
                                 .setType("text/plain")
               .setText(getString(R.string.share_success_string, args.toString()))
                                 .intent

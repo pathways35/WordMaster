@@ -1,4 +1,68 @@
 [
+
+    {
+            "word": "reticent",
+            "grammar": "adjective",
+            "meaning": "reserved or reluctant",
+            "usage": "Mike is reticent in school though he is usally very talkative at home",
+            "synonyms": ["quite", "bashful"]
+            },
+    {
+            "word": "ardent",
+            "grammar": "adjective",
+            "meaning": "having intense or passionate feeling",
+            "usage": "Serena's ardent fans cheered for her even when she lost the match",
+            "synonyms": ["enthusiastic", "committed"]
+            },
+    {
+            "word": "assertion",
+            "grammar": "noun",
+            "meaning": "a statement or declaration, often without reasoning or support",
+            "usage": "Kevin's common assertion after losing a tennis match is that the opponent cheated",
+            "synonyms": ["statement", "declaration"]
+            },
+    {
+            "word": "assuage",
+            "grammar": "verb",
+            "meaning": "to make milder or less severe",
+            "usage": "The parents assuaged the child's fear of relocating to a new place by reading a book about the place",
+            "synonyms": ["ease", "mitigate"]
+            },
+    {
+            "word": "astute",
+            "grammar": "adjective",
+            "meaning": "having practical intelligence",
+            "usage": "Most successful entrepreneurs are astute about the consumer needs",
+            "synonyms": ["ingenious", "shrewd"]
+            },
+    {
+            "word": "augment",
+            "grammar": "verb",
+            "meaning": "to make larger",
+            "usage": "We need to augment the curriculum to include more sports classes",
+            "synonyms": ["amplify", "enlarge"]
+            },
+    {
+            "word": "austere",
+            "grammar": "adjective",
+            "meaning": "severe in manner and appearance",
+            "usage": "The school principals austere nature made her students fearful",
+            "synonyms": ["uncompromising", "strict"]
+            },
+    {
+            "word": "autonomy",
+            "grammar": "noun",
+            "meaning": "Independence or freedom of will",
+            "usage": "Congress is an autonomous branch of government",
+            "synonyms": ["Independence", "liberty"]
+            },
+    {
+            "word": "belabor",
+            "grammar": "verb",
+            "meaning": "to explain or work at something beyond what is necessary",
+            "usage": "The critics thought the drama belabored the social message",
+            "synonyms": ["overwork", "harsh"]
+            },
     {
             "word": "banal",
             "synonyms": ["unoriginal", "ordinary"],
@@ -143,93 +207,93 @@
     {
             "word": "salutary",
             "synonyms": ["healthy", "favorable"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "adjective",
+                        "meaning":"promoting health or some beneficial purpose",
+                        "usage": "The accident should be a salutary lesson to be more careful"
             },
     {
             "word": "portend",
             "synonyms": ["foreshadow", "foretell"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "verb",
+                        "meaning":"to indicate in advance",
+                        "usage": "Dumbledore could portend Voldemort's future based on his childhood antics"
             },
     {
             "word": "cynical",
             "synonyms": ["skeptical", "jaded"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "adjective",
+                        "meaning":"distrusting the motives of others",
+                        "usage": "People are very cynical about politics and politicians"
             },
     {
             "word": "polemical",
             "synonyms": ["controversial", "quarrelsome"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "adjective",
+                        "meaning":"involving dispute or controversy",
+                        "usage": "The polemical discussion about climate change went on for hours"
             },
     {
             "word": "decorous",
             "synonyms": ["respectable"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "adjective",
+                        "meaning":"having proper dress, speech or behavior",
+                        "usage": "John McEnroe's on court tempers are not decorous"
             },
     {
             "word": "decry",
             "synonyms": ["denigrate", "belittle"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "verb",
+                        "meaning":"to denounce as faulty or worthless",
+                        "usage": "The crowd decried the refree's penalty for the home team"
             },
     {
             "word": "refute",
             "synonyms": ["disprove", "rebut"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "verb",
+                        "meaning":"to prove wrong",
+                        "usage": "Scientist use experiments and mathematics to refute or validate theories"
             },
     {
             "word": "languid",
             "synonyms": ["slow", "relaxed"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "adjective",
+                        "meaning":"lacking energy or virality",
+                        "usage": "Kerry reached the end of the marathon at a languid pace"
             },
     {
             "word": "palliative",
             "synonyms": ["remedy", "placebo"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "noun",
+                        "meaning":"something that relieves symptoms without curing disease",
+                        "usage": "The patient was given Tylenol after dental surgery to help with pain"
             },
     {
             "word": "candid",
             "synonyms": ["honest", "open"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "adjective",
+                        "meaning":"frank, open honest in speech",
+                        "usage": "The father had a candid discussion with his son about his college admission process"
             },
     {
             "word": "cantankerous",
             "synonyms": ["contentious", "peevish"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "adjective",
+                        "meaning":"disagreeable to deal with",
+                        "usage": "The quarterback's cantankerous outbursts make it difficult for the team to play well"
             },
     {
             "word": "capitulate",
             "synonyms": ["surrender", "submit"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "verb",
+                        "meaning":"to give up resistance",
+                        "usage": "The Indians were forced to capitulate to the British settlers"
             },
     {
             "word": "capricious",
             "synonyms": ["erratic", "whimsical"],
-            "grammar": "",
-                        "meaning":"",
-                        "usage": ""
+            "grammar": "adjective",
+                        "meaning":"subject to or led by whim",
+                        "usage": "The mayor's capricious behaviour keeps his aides constantly guessing"
             },
     {
             "word": "catalyst",
