@@ -8,6 +8,15 @@ buildscript {
         version_navigation = "2.1.0-alpha02"
         version_lifecycle = '2.0.0-beta01'
         version_work = '1.0.1'
+        robolectricVersion = '4.3.1'
+        androidXVersion = '1.0.0'
+        androidXTestCoreVersion = '1.2.0'
+        androidXTestExtKotlinRunnerVersion = '1.1.1'
+        androidXTestRulesVersion = '1.2.0-beta01'
+        androidXAnnotations = '1.0.1'
+        androidXLegacySupport = '1.0.0'
+        hamcrestVersion = '2.2'
+        junitVersion = '4.12'
     }
 
     repositories {

@@ -29,22 +29,22 @@ class TitleFragment : Fragment() {
         }
 
         //setup menu
-        setHasOptionsMenu(true)
+        //setHasOptionsMenu(true)
         return binding.root
     }
 
-    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        super.onCreateOptionsMenu(menu, inflater)
-
-        //inflate the menu
-        inflater?.inflate(R.menu.overflow_menu, menu)
-    }
-
-    //Returns true if NavigationUI.onNavDestinationSelected returns true, else returns super.onOptionsItemSelected
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return NavigationUI.onNavDestinationSelected(item!!, Navigation.findNavController(view!!))
-                || super.onOptionsItemSelected(item)
-    }
+//    override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
+//        super.onCreateOptionsMenu(menu, inflater)
+//
+//        //inflate the menu
+//        inflater?.inflate(R.menu.overflow_menu, menu)
+//    }
+//
+//    //Returns true if NavigationUI.onNavDestinationSelected returns true, else returns super.onOptionsItemSelected
+//    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+//        return NavigationUI.onNavDestinationSelected(item!!, Navigation.findNavController(view!!))
+//                || super.onOptionsItemSelected(item)
+//    }
 
 
 }

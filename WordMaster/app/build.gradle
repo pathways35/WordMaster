@@ -39,8 +39,21 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
 
+
+    //dependencies for local unit test
+    //noinspection NotInterpolated
+    testImplementation "junit:junit:$junitVersion"
+    //noinspection NotInterpolated
+    testImplementation "androidx.test.ext:junit:$androidXTestExtKotlinRunnerVersion"
+    //noinspection NotInterpolated
+    testImplementation "androidx.test:core-ktx:$androidXTestCoreVersion"
+    testImplementation "org.robolectric:robolectric:$robolectricVersion"
+    testImplementation "org.hamcrest:hamcrest:$hamcrestVersion"
+
+
+
+
     //tests
-    testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.3.0-alpha02'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha02'
@@ -51,8 +64,6 @@ dependencies {
 
     //work
     implementation "android.arch.work:work-runtime:$version_work"
-
-
 
 
     //navigation

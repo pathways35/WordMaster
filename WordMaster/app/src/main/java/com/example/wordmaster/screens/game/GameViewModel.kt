@@ -15,7 +15,6 @@ import kotlinx.coroutines.*
 import kotlin.random.Random
 
 
-//class GameViewModel(val db: WordMasterDatabase, application: Application): ViewModel() {
 class GameViewModel(val db:WordDatabaseDao, application: Application): AndroidViewModel(application) {
 
     companion object {
